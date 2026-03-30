@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "PurpleDCow.aternos.me:33009",
+    "ip": "PurpleDCow.aternos.me",
     "port": 33009,
     "version": "1.21.1"
   },
