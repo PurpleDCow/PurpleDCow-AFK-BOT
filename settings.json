@@ -1,7 +1,7 @@
 {
-  "name": "AFK Bot",
+  "name": "Purple D'Cow",
   "bot-account": {
-    "username": "Purple D'Cow Bot",
+    "username": "Purple D'Cow",
     "password": "",
     "type": "offline"
   },
@@ -24,6 +24,16 @@
     "anti-afk": {
       "enabled": true,
       "sneak": true
+    },
+    "chat-messages": {
+      "enabled": false,
+      "repeat": true,
+      "repeat-delay": 500,
+      "messages": [
+        "I'm a regular player",
+        "Subscribe to Slobos!",
+        "I like to play Minecraft!"
+      ]
     },
     "chat-log": true,
     "auto-reconnect": true,
@@ -60,11 +70,11 @@
   },
   "combat": {
     "attack-mobs": true,
-    "auto-eat": false
+    "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true
   },
   "discord": {
     "enabled": true,
