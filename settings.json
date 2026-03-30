@@ -1,13 +1,13 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Technoblade",
+    "username": "Purple D'Cow Bot",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobos13.aternos.me",
-    "port": 29195,
+    "ip": "PurpleDCow.aternos.me",
+    "port": 33009,
     "version": "1.21.1"
   },
   "position": {
@@ -24,16 +24,6 @@
     "anti-afk": {
       "enabled": true,
       "sneak": true
-    },
-    "chat-messages": {
-      "enabled": true,
-      "repeat": true,
-      "repeat-delay": 500,
-      "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
-      ]
     },
     "chat-log": true,
     "auto-reconnect": true,
@@ -64,17 +54,17 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": true,
-    "chat": true,
-    "console-commands": true
+    "beds": false,
+    "chat": false,
+    "console-commands": false
   },
   "combat": {
     "attack-mobs": true,
-    "auto-eat": true
+    "auto-eat": false
   },
   "beds": {
-    "pick-up-day": true,
-    "place-night": true
+    "pick-up-day": false,
+    "place-night": false
   },
   "discord": {
     "enabled": true,
